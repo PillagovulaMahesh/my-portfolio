@@ -1,0 +1,61 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar .nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.navbar .nav-links li {
+  margin: 0 15px;
+}
+
+.cv-button {
+  background-color: orange;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.about-me-content h1 span {
+  color: orange;
+}
+
+.hire-me-button {
+  background-color: orange;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.services {
+  padding: 50px 20px;
+}
+
+.service-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-item {
+  text-align: center;
+}
